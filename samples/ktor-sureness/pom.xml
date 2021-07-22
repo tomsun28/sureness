@@ -18,20 +18,6 @@
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
         <main.class>io.ktor.server.netty.EngineMain</main.class>
     </properties>
-    <repositories>
-        <repository>
-            <id>repo1</id>
-            <url>https://jcenter.bintray.com</url>
-            <releases><enabled>true</enabled></releases>
-            <snapshots><enabled>true</enabled></snapshots>
-        </repository>
-        <repository>
-            <id>repo2</id>
-            <url>https://kotlin.bintray.com/ktor</url>
-            <releases><enabled>true</enabled></releases>
-            <snapshots><enabled>true</enabled></snapshots>
-        </repository>
-    </repositories>
     <dependencies>
         <dependency>
             <groupId>com.usthe.sureness</groupId>
